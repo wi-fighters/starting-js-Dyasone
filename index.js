@@ -49,3 +49,8 @@ let test;
 console.log(typeof test);
 //type is undefined because no value assigned 
 
+//10.  Calculation!
+let calculation = (3+4/7)*10-13;
+console.log(calculation);
+
+

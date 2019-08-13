@@ -14,3 +14,9 @@ const James = ((80/100*9)-(78/100*8))*100;
 console.log("James needs a minimum of "+James+"%"+" to get an 80% average");
 
 //Consumer Formula
+const tip1 = "€"+((22.35*10/100)+22.35);
+const tip2 = "€"+((26.67*15/100)+26.67);
+const tip3 = "€"+((35.92*20/100)+35.92);
+console.log(`tip1 ${tip1}
+tip2 ${tip2}
+tip3 ${tip3}`);

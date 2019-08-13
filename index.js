@@ -43,3 +43,9 @@ console.log(typeof (a===b));
 let programmingLanguage = "JavaScript";
 let isFun = true; 
 console.log(programmingLanguage+" is fun: "+ isFun);
+
+//9. What type is it? 
+let test;
+console.log(typeof test);
+//type is undefined because no value assigned 
+

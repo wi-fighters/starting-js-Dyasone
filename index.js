@@ -19,3 +19,13 @@ console.log(typeof length);
 console.log(typeof lastName);
 console.log(typeof car);
 console.log(typeof isOpen);
+
+//5. Number Vars
+let ageMark =30;
+let ageJohn ="40";
+console.log(typeof ageMark);
+console.log(typeof ageJohn);
+
+//6. Who's older?
+console.log(ageJohn>ageMark?"John is older than Mark: true":"Mark is older than John: false");
+

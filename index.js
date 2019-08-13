@@ -6,3 +6,6 @@ let astName = 'Marhenke';
 let name = firstName+" "+astName;
 let city = 'Berlin';
 let job = 'student';
+
+//3. Concatenation
+console.log(name,"is a 31 year old", job, "who lives in", city);

@@ -8,3 +8,7 @@ console.log ("Noemy's avarage hour "+NoemyWork);
 //score
 lastTest = (85*6)-(75+70+85+90+100)
 console.log("Score in the sixth test: "+ lastTest);
+
+//minimum score
+James = ((80/100*9)-(78/100*8))*100;
+console.log("James needs a minimum of "+James+"%"+" to get an 80% average");

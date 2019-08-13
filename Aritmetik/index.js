@@ -20,3 +20,5 @@ const tip3 = "€"+((35.92*20/100)+35.92);
 console.log(`tip1 ${tip1}
 tip2 ${tip2}
 tip3 ${tip3}`);
+
+//Geometry 

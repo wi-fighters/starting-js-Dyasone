@@ -38,3 +38,8 @@ console.log(squareArea+"cm²");
 
 //Area of Triangle
 //areaTriangle = 
+
+//Volume of a Cube
+const cube = 9;
+const cubeVolume = 9*9*9;
+console.log(cubeVolume+"cm³");

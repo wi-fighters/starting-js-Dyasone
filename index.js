@@ -27,7 +27,8 @@ console.log(typeof ageMark);
 console.log(typeof ageJohn);
 
 //6. Who's older?
-console.log(ageJohn>ageMark?"John is older than Mark: true":"Mark is older than John: false");
+let age = ageJohn>ageMark;
+console.log(ageJohn>ageMark?"John is older than Mark:"+age :"Mark is older than John:"+age);
 
 //7. Compare and contrast
 let a = 1;

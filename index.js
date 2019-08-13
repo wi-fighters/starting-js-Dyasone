@@ -39,3 +39,7 @@ console.log(a===c);
 console.log(c===a+b);
 console.log(typeof (a===b));
 
+//8. isFun?
+let programmingLanguage = "JavaScript";
+let isFun = true; 
+console.log(programmingLanguage+" is fun: "+ isFun);

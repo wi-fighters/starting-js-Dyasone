@@ -25,4 +25,16 @@ tip3 ${tip3}`);
 //Square
 const square = 4.75;
 const squarePerimeter = square*4; 
-console.log(squarePerimeter);
+console.log(squarePerimeter+"cm");
+
+//Triangle
+const triangle = 5+6+7;
+console.log(triangle+"cm");
+
+//Area of a Square
+const square2 =5;
+const squareArea = 5*5;
+console.log(squareArea+"cm²");
+
+//Area of Triangle
+//areaTriangle = 

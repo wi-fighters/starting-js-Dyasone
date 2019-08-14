@@ -18,6 +18,9 @@ console.log(walk.substring(18,23));
 console.log(coding.substring(3, 6));
 
 //Upper Case
+const hello = "Hello World"; 
+const bigHello = hello.toUpperCase();
+console.log(`${bigHello}`);
 
 //Lower Case
 

@@ -33,9 +33,9 @@ const shoesI = shoes.includes("i");
 const shoesN = shoes.includes("n");
 console.log(`"does nice shoes contain the letter n?"${shoesN} "and or the letter i?"${shoesI}`);
 
-
-
 //Front & Back
+const letter = shoes[0];
+console.log(`${letter}${coding}${letter}`); 
 
 //last Three Chars
 

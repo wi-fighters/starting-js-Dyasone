@@ -11,6 +11,9 @@ console.log(coding.length);
 console.log(coding[0], coding[4]);
 
 //I can...
+const walk = "I can walk in the park all day!";
+console.log(walk.substring(18,23));
+
 
 //aSc
 

@@ -43,3 +43,11 @@ console.log(squareArea+"cm²");
 const cube = 9;
 const cubeVolume = 9*9*9;
 console.log(cubeVolume+"cm³");
+
+//At the movies
+const ticketMoney = 6450;
+const ticketPrice = 15;
+const visitors = ticketMoney/ticketPrice;
+console.log(`${visitors} ppl bought a ticket`);
+
+

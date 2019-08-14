@@ -41,6 +41,11 @@ console.log(`${letter}${coding}${letter}`);
 const lastThree = shoes.substring(7,10);
 console.log(`${lastThree}${coding}${lastThree}`);
 
+//Java
+const  javaHappy = coding+"lalala";
+const bigJavaHappy = javaHappy.toUpperCase();
+const javaQuestion = bigJavaHappy.includes("Java");
+console.log(`${bigJavaHappy} does it contain Java? ${javaQuestion}`);
 //First and Last
 
 //Concatenation

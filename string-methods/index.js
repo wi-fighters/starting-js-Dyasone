@@ -24,6 +24,11 @@ console.log(`${bigHello}`);
 
 //Lower Case
 
+const earthling = "Hallo Earthling";
+const smallEarth = earthling.toLowerCase();
+console.log(smallEarth);
+
+
 //Does it contain...?
 
 //Front & Back

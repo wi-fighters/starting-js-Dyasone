@@ -27,8 +27,13 @@ const earthling = "Hallo Earthling";
 const smallEarth = earthling.toLowerCase();
 console.log(smallEarth);
 
-
 //Does it contain...?
+const shoes = "nice shoes";
+const shoesI = shoes.includes("i");
+const shoesN = shoes.includes("n");
+console.log(`"does nice shoes contain the letter n?"${shoesN} "and or the letter i?"${shoesI}`);
+
+
 
 //Front & Back
 

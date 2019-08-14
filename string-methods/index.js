@@ -14,8 +14,8 @@ console.log(coding[0], coding[4]);
 const walk = "I can walk in the park all day!";
 console.log(walk.substring(18,23));
 
-
 //aSc
+console.log(coding.substring(3, 6));
 
 //Upper Case
 

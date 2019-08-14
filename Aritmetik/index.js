@@ -37,8 +37,9 @@ const squareArea = 5*5;
 console.log(squareArea+"cm²");
 
 //Area of Triangle
-//areaTriangle = 
-
+trianglePerimeter = 18;
+areaTriangle = Math.SQRT2((trianglePerimeter*5)+(trianglePerimeter*6)+(trianglePerimeter*7))/2;
+console.log(areaTriangle);
 //Volume of a Cube
 const cube = 9;
 const cubeVolume = 9*9*9;

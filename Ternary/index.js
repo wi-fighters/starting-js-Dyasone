@@ -20,3 +20,9 @@ console.log(personAge);
 const studentA = false;
 const isStudent =  (studentA==true) ?"Ticket costs 5,00€":"Ticket cost €12";
 console.log(isStudent);
+
+//What time is it
+
+const morning = false;
+const timeOfDay = (morning==true)?"Good Morning":"Good Evening";
+console.log(timeOfDay);

@@ -50,4 +50,8 @@ const ticketPrice = 15;
 const visitors = ticketMoney/ticketPrice;
 console.log(`${visitors} ppl bought a ticket`);
 
-
+//Income Sylvia
+const incomeWeek = 500;
+const weeksYear = 52.1429;
+const incomeYear = incomeWeek*weeksYear;
+console.log(`Sylvia makes $ ${incomeYear} every year.`);

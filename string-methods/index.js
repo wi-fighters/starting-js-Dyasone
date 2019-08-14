@@ -23,7 +23,6 @@ const bigHello = hello.toUpperCase();
 console.log(`${bigHello}`);
 
 //Lower Case
-
 const earthling = "Hallo Earthling";
 const smallEarth = earthling.toLowerCase();
 console.log(smallEarth);

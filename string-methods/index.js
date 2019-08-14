@@ -6,7 +6,9 @@ const string6 = stringLenght[6];
 console.log(`${string2} second letter ${string6} sixed letter`);
 
 //JS 
-
+const coding = "JavaScript";
+console.log(coding.length);
+console.log(coding[0], coding[4]);
 
 //I can...
 

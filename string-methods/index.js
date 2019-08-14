@@ -46,7 +46,12 @@ const  javaHappy = coding+"lalala";
 const bigJavaHappy = javaHappy.toUpperCase();
 const javaQuestion = bigJavaHappy.includes("Java");
 console.log(`${bigJavaHappy} does it contain Java? ${javaQuestion}`);
+
 //First and Last
+const firstLast = coding[0];
+const lastFirst = coding[coding.length-1];
+const letsSee = coding.substring(1,9);
+console.log(`${lastFirst}${letsSee}${firstLast}`);
 
 //Concatenation
 

@@ -38,6 +38,8 @@ const letter = shoes[0];
 console.log(`${letter}${coding}${letter}`); 
 
 //last Three Chars
+const lastThree = shoes.substring(7,10);
+console.log(`${lastThree}${coding}${lastThree}`);
 
 //First and Last
 

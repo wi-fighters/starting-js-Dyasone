@@ -54,6 +54,10 @@ const letsSee = coding.substring(1,9);
 console.log(`${lastFirst}${letsSee}${firstLast}`);
 
 //Concatenation
+const personName = "Maria";
+const personCity = "Berlin";
+const personJob = "teacher";
+console.log(`My name is ${personName}. I live in ${personCity} and I am a ${personJob}.`)
 
 //Capitalize
 

@@ -57,7 +57,12 @@ console.log(`${lastFirst}${letsSee}${firstLast}`);
 const personName = "Maria";
 const personCity = "Berlin";
 const personJob = "teacher";
-console.log(`My name is ${personName}. I live in ${personCity} and I am a ${personJob}.`)
+console.log(`My name is ${personName}. I live in ${personCity} and I am a ${personJob}.`);
 
 //Capitalize
+const quick="the quick brown fox";
+const quickNoT=quick.substring(1);
+const quickFirst=quick[0]
+const quickBigFirst=quickFirst.toUpperCase();
+console.log(`${quickBigFirst}${quickNoT}`);
 

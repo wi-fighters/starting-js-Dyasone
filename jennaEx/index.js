@@ -14,10 +14,9 @@ function jenna() {
     function exam(cups,days) {
         if (days > 0) {
             ++ cups;
-        }
-        if (days > 0){
+
             -- days;
-            cups, days; 
+        
         }
         if (days !== 0) {
             exam(cups,days);

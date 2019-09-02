@@ -1,18 +1,18 @@
 
 let arrClothingColor = [];
 
-function clothingColor(color, food) {
-    const result = `The ${color} ${food}!`;
-    if (color[0] === color[0].toLowerCase()) {
-        color = color[0].toUpperCase() + color.substring(1);      
+function generateBandName(clothingColour, lastFoodEaten) {
+    const result = `The ${clothingColour} ${lastFoodEaten}!`;
+    if (clothingColour[0] === clothingColour[0].toLowerCase()) {
+        clothingColour = clothingColour[0].toUpperCase() + clothingColour.substring(1);      
     }
-    if (food[0] === food[0].toLowerCase()){
-        food = food[0].toUpperCase() + food.substring(1);
-        arrClothingColor.push([color, food]);   
+    if (lastFoodEaten[0] === lastFoodEaten[0].toLowerCase()){
+        lastFoodEaten = lastFoodEaten[0].toUpperCase() + lastFoodEaten.substring(1);
+        arrgenerateBandName.push([clothingColour, lastFoodEaten]);   
     }
     return result;
 }
 
-console.log(clothingColor('ReD', 'carrots'));
-console.log(clothingColor('Blue', 'cake'));
-console.log(clothingColor('white', 'steak'),'\nUser Inputs:',arrClothingColor);
+console.log(generateBandName('ReD', 'carrots'));
+console.log(generateBandName('Blue', 'cake'));
+console.log(generateBandName('white', 'steak'),'\nUser Inputs:',arrClothingColor);

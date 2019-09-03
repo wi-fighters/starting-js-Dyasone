@@ -10,6 +10,10 @@ let arrBandName = [];
 //     }
 //     return result;
 // }
+function makeTasty(color){
+    
+    return 
+}
 function resultFunc(clothingColour, lastFoodEaten) {
     const rawString = function capitalizeColor(clothingColour) {
         if (clothingColour.substring[1] === clothingColour.toUpperCase().substring[1]){

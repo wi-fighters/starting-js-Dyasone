@@ -11,22 +11,15 @@ let arrBandName = [];
 //     return result;
 // }
 function resultFunc(clothingColour, lastFoodEaten) {
-const capColor = function capitalizeColor(clothingColour) {
-    if (clothingColour.substring[1] === clothingColour.toUpperCase().substring[1]){
-        clothingColour =  clothingColour[0].toUpperCase() + clothingColour.toLowerCase().substring(1);
-        //const result = `The ${clothingColour}!`;
-        return clothingColour;
+    const rawString = function capitalizeColor(clothingColour) {
+        if (clothingColour.substring[1] === clothingColour.toUpperCase().substring[1]){
+            clothingColour =  clothingColour[0].toUpperCase() + clothingColour.toLowerCase().substring(1);
+            return clothingColour;
         }
-}
-const capFood = function capitalizeFood(lastFoodEaten) {
-    if (lastFoodEaten.substring[1] === lastFoodEaten.toUpperCase().substring[1]){
-        lastFoodEaten = lastFoodEaten[0].toUpperCase() + lastFoodEaten.toLowerCase().substring(1); // R + edsffs[2] // Rs
-        //const result = `The ${lastFoodEaten}!`;
-        return lastFoodEaten;
     }
-}
-arrBandName.push([clothingColour, lastFoodEaten]);
-return `The ${capColor(clothingColour)} ${capFood(lastFoodEaten)}!\nUser Inputs:${arrBandName}`;
+    rawString(lastFoodEaten);
+    arrBandName.push([clothingColour, lastFoodEaten]);
+    return `The ${rawString(clothingColour)} ${rawString(lastFoodEaten)}!\nUser Inputs:${arrBandName}`;
 } 
 
 // console.log(generateBandName('ReD', 'carrots'));

@@ -25,7 +25,8 @@ const capFood = function capitalizeFood(lastFoodEaten) {
         return lastFoodEaten;
     }
 }
-return `The ${capColor(clothingColour)} ${capFood(lastFoodEaten)}!`;
+arrBandName.push([clothingColour, lastFoodEaten]);
+return `The ${capColor(clothingColour)} ${capFood(lastFoodEaten)}!\nUser Inputs:${arrBandName}`;
 } 
 
 // console.log(generateBandName('ReD', 'carrots'));

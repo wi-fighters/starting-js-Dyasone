@@ -23,11 +23,16 @@ var add = (function () {
     return function plus () {counter += 1; return counter}
   });
   var innerFunction = add();
-  add();
-  add();
-  add();
+  var innerFunction2 = add();
+  add()();
+  add()();
+  add()();
   console.log(add()());
+
   console.log(innerFunction());
-  innerFunction();
+  console.log(innerFunction());
+add();
   console.log(innerFunction());
 
+  console.log(innerFunction2());
+  console.log(innerFunction2());

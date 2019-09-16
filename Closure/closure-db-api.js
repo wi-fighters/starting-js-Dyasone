@@ -3,20 +3,23 @@ const init = () => {
     let api = [];
     const create = (element) => {
         db.push(element); 
-        return `New element added! The new length of the array is ${db.length}`;
+        console.log(`New element added! The new length of the array is ${db.length}`);
+        return db.length;
     }; 
     const read = () => {
         return [...db];
     };
     const update = (index, newElement) => {
-        if(index === 'undefined'){
+        const oldElement = db[index];
+        if(typeof oldElement === 'undefined'){
            return create(newElement); 
          } else{
                 return db.splice(index,1,newElement);
          }
     };
     const deleted = (index) => {
-        if(index === 'undefined' ){
+        const oldElement = db[index];
+        if(typeof oldElement === 'undefined'){
             return console.log("no droids found");
         }else{
             return  db.splice(index,1);
@@ -37,10 +40,12 @@ console.log(createAPI(878));
 console.log(createAPI(345));
 console.log(readAPI());
 init(12); // can't change the db. no idea why it's not changing
-updateAPI(10,122); // update working
+updateAPI(20,122); 
+updateAPI(7,88); 
+updateAPI(10,4); // update working
 updateAPI(1,122); 
 updateAPI(0,500); // update working
-removeAPI(3);
+//removeAPI(3);
 console.log(readAPI());
 
 

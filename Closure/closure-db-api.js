@@ -25,14 +25,14 @@ const init = () => {
             return  db.splice(index,1);
         }
     };
-    api.push(create);
-    return [create,read,update,deleted]; 
+    api.push(create,read,update,deleted);
+    return api; 
 }; 
-const createInDb = init();
-const createAPI = createInDb[0]; 
-const readAPI = createInDb[1]; 
-const updateAPI = createInDb[2]; 
-const removeAPI = createInDb[3]; 
+const dbAPI = init();
+const createAPI = dbAPI[0]; 
+const readAPI = dbAPI[1]; 
+const updateAPI = dbAPI[2]; 
+const removeAPI = dbAPI[3]; 
 
 
 console.log(createAPI(234));
@@ -45,7 +45,7 @@ updateAPI(7,88);
 updateAPI(10,4); // update working
 updateAPI(1,122); 
 updateAPI(0,500); // update working
-//removeAPI(3);
+removeAPI(1);
 console.log(readAPI());
 
 

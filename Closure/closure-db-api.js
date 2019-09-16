@@ -9,17 +9,17 @@ const init = () => {
         return [...db];
     };
     const update = (index, newElement) => {
-        if(index < db.length){
-           return db.splice(index,1,newElement); 
+        if(index === 'undefined'){
+           return create(newElement); 
          } else{
-                return create(newElement);
+                return db.splice(index,1,newElement);
          }
     };
     const deleted = (index) => {
-        if(index < db.length ){
-            return  db.splice(index,1);
-        }else{
+        if(index === 'undefined' ){
             return console.log("no droids found");
+        }else{
+            return  db.splice(index,1);
         }
     };
     api.push(create);

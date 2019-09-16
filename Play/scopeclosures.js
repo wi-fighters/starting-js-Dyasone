@@ -36,3 +36,4 @@ add();
 
   console.log(innerFunction2());
   console.log(innerFunction2());
+  console.log(innerFunction());

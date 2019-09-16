@@ -4,27 +4,27 @@ const init = () => {
     const create = (element) => {
         db.push(element); 
         return `New element added! The new length of the array is ${db.length}`;
-    } 
+    }; 
     const read = () => {
         return [...db];
-    }
+    };
     const update = (index, newElement) => {
         if(index < db.length){
            return db.splice(index,1,newElement); 
          } else{
                 return create(newElement);
          }
-    }
+    };
     const deleted = (index) => {
         if(index < db.length ){
             return  db.splice(index,1);
         }else{
             return console.log("no droids found");
         }
-    }
+    };
     api.push(create);
     return [create,read,update,deleted]; 
-} 
+}; 
 const createInDb = init();
 const createAPI = createInDb[0]; 
 const readAPI = createInDb[1]; 
